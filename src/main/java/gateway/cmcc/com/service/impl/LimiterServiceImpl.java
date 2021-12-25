@@ -32,7 +32,7 @@ public class LimiterServiceImpl implements LimiterService, RedisKey {
     @Override
     public Boolean getTicket(String key) {
         ValueOperations<String, String> forValue = redisTemplate.opsForValue();
-        Boolean setIfAbsent = forValue.setIfAbsent(getMobileKey(key), "1", limiterConfig.getPerMobile(), TimeUnit.SECONDS);
+        Boolean setIfAbsent = forValue.setIfAbsent(getMobileKey(key), "1", limiterConfig.getPerMobile(), TimeUnit.MILLISECONDS);
         log.info("获取单独手机锁结果:{},锁key: {}", setIfAbsent, getMobileKey(key));
         if (null != setIfAbsent && !setIfAbsent) {
             return false;

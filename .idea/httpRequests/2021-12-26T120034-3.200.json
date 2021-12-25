@@ -1,5 +1,5 @@
 {
-  "sessionId": null,
+  "sessionId": true,
   "code": 200,
   "message": "success"
 }

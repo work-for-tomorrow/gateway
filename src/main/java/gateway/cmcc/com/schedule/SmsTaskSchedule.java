@@ -41,7 +41,8 @@ public class SmsTaskSchedule implements ApplicationRunner {
     private int stop = 0;
 
     /**
-     * 每秒从redis里读任务
+     * 每秒从redis里读任务,逻辑还有问题
+     * TODO:
      */
     @Scheduled(fixedRate = 1000L)
     public void seek() {
@@ -49,7 +50,7 @@ public class SmsTaskSchedule implements ApplicationRunner {
         Integer queueSize = taskContainer.getQueueSize();
         if (queueSize < 3 && stop-- <= 0) {
             ZSetOperations<String, String> setOperations = redisTemplate.opsForZSet();
-            Set<String> range = setOperations.range(RedisKey.SMS_TASK_QUEUE, 0, 2);
+            Set<String> range = setOperations.range(RedisKey.SMS_TASK_QUEUE, 0, 9);
             log.info("定时器获取新任务数:{}", Objects.nonNull(range) ? range.size() : 0);
             if (!CollectionUtils.isEmpty(range)) {
                 HashOperations<String, Object, Object> opsForHash = redisTemplate.opsForHash();

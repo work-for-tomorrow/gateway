@@ -22,7 +22,7 @@ public class LimiterConfig {
     /**
      * 每个手机每秒可发送多少次
      */
-    @Value("${limiter.per.mobile:1}")
+    @Value("${limiter.per.mobile:1100}")
     private Integer perMobile;
 
 }

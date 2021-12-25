@@ -34,7 +34,7 @@ Content-Type: application/json
 }
 
 ### f8b9d904-e774-43c9-8830-d3467c0a9f61
-POST http://42.194.133.29:9090/directmessage?sessionId=bc9d52b2-6b4c-4acf-a974-c1c66602b370&userName=jasonZeng&qos=1&tels=183000000
+POST http://42.194.133.29:9090/directmessage?sessionId=9ee2b03c-60d3-4536-a0d3-11c45e069337&userName=jasonZeng&qos=1&tels=183000000
 Content-Type: application/json
 
 {

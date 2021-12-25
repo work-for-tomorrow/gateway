@@ -1,4 +1,4 @@
-POST http://42.194.133.29:9090/directmessage?sessionId=bc9d52b2-6b4c-4acf-a974-c1c66602b370&userName=jasonZeng&qos=1&tels=183000000
+POST http://42.194.133.29:9090/directmessage?sessionId=9ee2b03c-60d3-4536-a0d3-11c45e069337&userName=jasonZeng&qos=1&tels=183000000
 Content-Type: application/json
 
 {
@@ -6,11 +6,11 @@ Content-Type: application/json
     "content": "test-content"
 }
 
-<> 2021-12-25T112206-4.200.json
+<> 2021-12-26T120401.200.json
 
 ###
 
-POST http://42.194.133.29:9090/directmessage?sessionId=bc9d52b2-6b4c-4acf-a974-c1c66602b370&userName=jasonZeng&qos=1&tels=183000000
+POST http://42.194.133.29:9090/directmessage?sessionId=9ee2b03c-60d3-4536-a0d3-11c45e069337&userName=jasonZeng&qos=1&tels=183000000
 Content-Type: application/json
 
 {
@@ -18,11 +18,11 @@ Content-Type: application/json
     "content": "test-content"
 }
 
-<> 2021-12-25T112206-3.200.json
+<> 2021-12-26T120034-3.200.json
 
 ###
 
-POST http://42.194.133.29:9090/directmessage?sessionId=bc9d52b2-6b4c-4acf-a974-c1c66602b370&userName=jasonZeng&qos=1&tels=183000000
+POST http://42.194.133.29:9090/directmessage?sessionId=9ee2b03c-60d3-4536-a0d3-11c45e069337&userName=jasonZeng&qos=1&tels=183000000
 Content-Type: application/json
 
 {
@@ -30,11 +30,11 @@ Content-Type: application/json
     "content": "test-content"
 }
 
-<> 2021-12-25T112206-2.200.json
+<> 2021-12-26T120034-2.200.json
 
 ###
 
-POST http://42.194.133.29:9090/directmessage?sessionId=bc9d52b2-6b4c-4acf-a974-c1c66602b370&userName=jasonZeng&qos=1&tels=183000000
+POST http://42.194.133.29:9090/directmessage?sessionId=9ee2b03c-60d3-4536-a0d3-11c45e069337&userName=jasonZeng&qos=1&tels=183000000
 Content-Type: application/json
 
 {
@@ -42,11 +42,11 @@ Content-Type: application/json
     "content": "test-content"
 }
 
-<> 2021-12-25T112206-1.200.json
+<> 2021-12-26T120034-1.200.json
 
 ###
 
-POST http://42.194.133.29:9090/directmessage?sessionId=bc9d52b2-6b4c-4acf-a974-c1c66602b370&userName=jasonZeng&qos=1&tels=183000000
+POST http://42.194.133.29:9090/directmessage?sessionId=9ee2b03c-60d3-4536-a0d3-11c45e069337&userName=jasonZeng&qos=1&tels=183000000
 Content-Type: application/json
 
 {
@@ -54,11 +54,11 @@ Content-Type: application/json
     "content": "test-content"
 }
 
-<> 2021-12-25T112206.200.json
+<> 2021-12-26T120034.200.json
 
 ###
 
-POST http://42.194.133.29:9090/directmessage?sessionId=bc9d52b2-6b4c-4acf-a974-c1c66602b370&userName=jasonZeng&qos=1&tels=183000000
+POST http://42.194.133.29:9090/directmessage?sessionId=9ee2b03c-60d3-4536-a0d3-11c45e069337&userName=jasonZeng&qos=1&tels=183000000
 Content-Type: application/json
 
 {
@@ -66,11 +66,11 @@ Content-Type: application/json
     "content": "test-content"
 }
 
-<> 2021-12-25T112205.200.json
+<> 2021-12-26T120033-5.200.json
 
 ###
 
-POST http://42.194.133.29:9090/directmessage?sessionId=bc9d52b2-6b4c-4acf-a974-c1c66602b370&userName=jasonZeng&qos=1&tels=183000000
+POST http://42.194.133.29:9090/directmessage?sessionId=9ee2b03c-60d3-4536-a0d3-11c45e069337&userName=jasonZeng&qos=1&tels=183000000
 Content-Type: application/json
 
 {
@@ -78,11 +78,11 @@ Content-Type: application/json
     "content": "test-content"
 }
 
-<> 2021-12-25T112204-1.200.json
+<> 2021-12-26T120033-4.200.json
 
 ###
 
-POST http://42.194.133.29:9090/directmessage?sessionId=bc9d52b2-6b4c-4acf-a974-c1c66602b370&userName=jasonZeng&qos=1&tels=183000000
+POST http://42.194.133.29:9090/directmessage?sessionId=9ee2b03c-60d3-4536-a0d3-11c45e069337&userName=jasonZeng&qos=1&tels=183000000
 Content-Type: application/json
 
 {
@@ -90,11 +90,11 @@ Content-Type: application/json
     "content": "test-content"
 }
 
-<> 2021-12-25T112204.200.json
+<> 2021-12-26T120033-3.200.json
 
 ###
 
-POST http://42.194.133.29:9090/directmessage?sessionId=bc9d52b2-6b4c-4acf-a974-c1c66602b370&userName=jasonZeng&qos=1&tels=183000000
+POST http://42.194.133.29:9090/directmessage?sessionId=9ee2b03c-60d3-4536-a0d3-11c45e069337&userName=jasonZeng&qos=1&tels=183000000
 Content-Type: application/json
 
 {
@@ -102,11 +102,11 @@ Content-Type: application/json
     "content": "test-content"
 }
 
-<> 2021-12-25T112203-3.200.json
+<> 2021-12-26T120033-2.200.json
 
 ###
 
-POST http://42.194.133.29:9090/directmessage?sessionId=bc9d52b2-6b4c-4acf-a974-c1c66602b370&userName=jasonZeng&qos=1&tels=183000000
+POST http://42.194.133.29:9090/directmessage?sessionId=9ee2b03c-60d3-4536-a0d3-11c45e069337&userName=jasonZeng&qos=1&tels=183000000
 Content-Type: application/json
 
 {
@@ -114,11 +114,11 @@ Content-Type: application/json
     "content": "test-content"
 }
 
-<> 2021-12-25T112203-2.200.json
+<> 2021-12-26T120033-1.200.json
 
 ###
 
-POST http://42.194.133.29:9090/directmessage?sessionId=bc9d52b2-6b4c-4acf-a974-c1c66602b370&userName=jasonZeng&qos=1&tels=183000000
+POST http://42.194.133.29:9090/directmessage?sessionId=9ee2b03c-60d3-4536-a0d3-11c45e069337&userName=jasonZeng&qos=1&tels=183000000
 Content-Type: application/json
 
 {
@@ -126,11 +126,11 @@ Content-Type: application/json
     "content": "test-content"
 }
 
-<> 2021-12-25T112203-1.200.json
+<> 2021-12-26T120033.200.json
 
 ###
 
-POST http://42.194.133.29:9090/directmessage?sessionId=bc9d52b2-6b4c-4acf-a974-c1c66602b370&userName=jasonZeng&qos=1&tels=183000000
+POST http://42.194.133.29:9090/directmessage?sessionId=9ee2b03c-60d3-4536-a0d3-11c45e069337&userName=jasonZeng&qos=1&tels=183000000
 Content-Type: application/json
 
 {
@@ -138,11 +138,11 @@ Content-Type: application/json
     "content": "test-content"
 }
 
-<> 2021-12-25T112203.200.json
+<> 2021-12-26T120032-4.200.json
 
 ###
 
-POST http://42.194.133.29:9090/directmessage?sessionId=bc9d52b2-6b4c-4acf-a974-c1c66602b370&userName=jasonZeng&qos=1&tels=183000000
+POST http://42.194.133.29:9090/directmessage?sessionId=9ee2b03c-60d3-4536-a0d3-11c45e069337&userName=jasonZeng&qos=1&tels=183000000
 Content-Type: application/json
 
 {
@@ -150,11 +150,11 @@ Content-Type: application/json
     "content": "test-content"
 }
 
-<> 2021-12-25T112202-1.200.json
+<> 2021-12-26T120032-3.200.json
 
 ###
 
-POST http://42.194.133.29:9090/directmessage?sessionId=bc9d52b2-6b4c-4acf-a974-c1c66602b370&userName=jasonZeng&qos=1&tels=183000000
+POST http://42.194.133.29:9090/directmessage?sessionId=9ee2b03c-60d3-4536-a0d3-11c45e069337&userName=jasonZeng&qos=1&tels=183000000
 Content-Type: application/json
 
 {
@@ -162,11 +162,11 @@ Content-Type: application/json
     "content": "test-content"
 }
 
-<> 2021-12-25T112202.200.json
+<> 2021-12-26T120032-2.200.json
 
 ###
 
-POST http://42.194.133.29:9090/directmessage?sessionId=bc9d52b2-6b4c-4acf-a974-c1c66602b370&userName=jasonZeng&qos=1&tels=183000000
+POST http://42.194.133.29:9090/directmessage?sessionId=9ee2b03c-60d3-4536-a0d3-11c45e069337&userName=jasonZeng&qos=1&tels=183000000
 Content-Type: application/json
 
 {
@@ -174,11 +174,11 @@ Content-Type: application/json
     "content": "test-content"
 }
 
-<> 2021-12-25T112201-1.200.json
+<> 2021-12-26T120032-1.200.json
 
 ###
 
-POST http://42.194.133.29:9090/directmessage?sessionId=bc9d52b2-6b4c-4acf-a974-c1c66602b370&userName=jasonZeng&qos=1&tels=183000000
+POST http://42.194.133.29:9090/directmessage?sessionId=9ee2b03c-60d3-4536-a0d3-11c45e069337&userName=jasonZeng&qos=1&tels=183000000
 Content-Type: application/json
 
 {
@@ -186,11 +186,11 @@ Content-Type: application/json
     "content": "test-content"
 }
 
-<> 2021-12-25T112201.200.json
+<> 2021-12-26T120032.200.json
 
 ###
 
-POST http://42.194.133.29:9090/directmessage?sessionId=bc9d52b2-6b4c-4acf-a974-c1c66602b370&userName=jasonZeng&qos=1&tels=183000000
+POST http://42.194.133.29:9090/directmessage?sessionId=9ee2b03c-60d3-4536-a0d3-11c45e069337&userName=jasonZeng&qos=1&tels=183000000
 Content-Type: application/json
 
 {
@@ -198,11 +198,11 @@ Content-Type: application/json
     "content": "test-content"
 }
 
-<> 2021-12-25T112200-2.200.json
+<> 2021-12-26T120030.200.json
 
 ###
 
-POST http://42.194.133.29:9090/directmessage?sessionId=bc9d52b2-6b4c-4acf-a974-c1c66602b370&userName=jasonZeng&qos=1&tels=183000000
+POST http://42.194.133.29:9090/directmessage?sessionId=9ee2b03c-60d3-4536-a0d3-11c45e069337&userName=jasonZeng&qos=1&tels=183000000
 Content-Type: application/json
 
 {
@@ -210,11 +210,11 @@ Content-Type: application/json
     "content": "test-content"
 }
 
-<> 2021-12-25T112200-1.200.json
+<> 2021-12-25T115606-3.200.json
 
 ###
 
-POST http://42.194.133.29:9090/directmessage?sessionId=bc9d52b2-6b4c-4acf-a974-c1c66602b370&userName=jasonZeng&qos=1&tels=183000000
+POST http://42.194.133.29:9090/directmessage?sessionId=9ee2b03c-60d3-4536-a0d3-11c45e069337&userName=jasonZeng&qos=1&tels=183000000
 Content-Type: application/json
 
 {
@@ -222,11 +222,11 @@ Content-Type: application/json
     "content": "test-content"
 }
 
-<> 2021-12-25T112200.200.json
+<> 2021-12-25T115606-2.200.json
 
 ###
 
-POST http://42.194.133.29:9090/directmessage?sessionId=bc9d52b2-6b4c-4acf-a974-c1c66602b370&userName=jasonZeng&qos=1&tels=183000000
+POST http://42.194.133.29:9090/directmessage?sessionId=9ee2b03c-60d3-4536-a0d3-11c45e069337&userName=jasonZeng&qos=1&tels=183000000
 Content-Type: application/json
 
 {
@@ -234,11 +234,11 @@ Content-Type: application/json
     "content": "test-content"
 }
 
-<> 2021-12-25T112159.200.json
+<> 2021-12-25T115606-1.200.json
 
 ###
 
-POST http://42.194.133.29:9090/directmessage?sessionId=bc9d52b2-6b4c-4acf-a974-c1c66602b370&userName=jasonZeng&qos=1&tels=183000000
+POST http://42.194.133.29:9090/directmessage?sessionId=9ee2b03c-60d3-4536-a0d3-11c45e069337&userName=jasonZeng&qos=1&tels=183000000
 Content-Type: application/json
 
 {
@@ -246,45 +246,11 @@ Content-Type: application/json
     "content": "test-content"
 }
 
-<> 2021-12-25T112156.200.json
+<> 2021-12-25T115606.200.json
 
 ###
 
-POST http://42.194.133.29:9090/auth/user/login
-Content-Type: application/json
-
-{
-    "userName": "jasonZeng",
-    "password": "hellojason"
-}
-
-<> 2021-12-25T112134.200.json
-
-###
-
-POST http://42.194.133.29:9090/auth/user/register
-Content-Type: application/json
-
-{
-    "userName": "jasonZeng",
-    "password": "hellojason"
-}
-
-<> 2021-12-25T112129.200.json
-
-###
-
-POST http://42.194.133.29:9090/auth/user/register
-Content-Type: application/json
-
-{
-    "userName": "jasonZeng",
-    "password": "hellojason"
-}
-
-###
-
-POST http://localhost:8080/directmessage?sessionId=f02e2da7-d0bd-4040-91f3-7ce513dce5d9&userName=jasonZeng&qos=1&tels=183000000
+POST http://42.194.133.29:9090/directmessage?sessionId=9ee2b03c-60d3-4536-a0d3-11c45e069337&userName=jasonZeng&qos=1&tels=183000000
 Content-Type: application/json
 
 {
@@ -292,11 +258,11 @@ Content-Type: application/json
     "content": "test-content"
 }
 
-<> 2021-12-25T084505-5.200.json
+<> 2021-12-25T115605-6.200.json
 
 ###
 
-POST http://localhost:8080/directmessage?sessionId=f02e2da7-d0bd-4040-91f3-7ce513dce5d9&userName=jasonZeng&qos=1&tels=183000000
+POST http://42.194.133.29:9090/directmessage?sessionId=9ee2b03c-60d3-4536-a0d3-11c45e069337&userName=jasonZeng&qos=1&tels=183000000
 Content-Type: application/json
 
 {
@@ -304,11 +270,11 @@ Content-Type: application/json
     "content": "test-content"
 }
 
-<> 2021-12-25T084505-4.200.json
+<> 2021-12-25T115605-5.200.json
 
 ###
 
-POST http://localhost:8080/directmessage?sessionId=f02e2da7-d0bd-4040-91f3-7ce513dce5d9&userName=jasonZeng&qos=1&tels=183000000
+POST http://42.194.133.29:9090/directmessage?sessionId=9ee2b03c-60d3-4536-a0d3-11c45e069337&userName=jasonZeng&qos=1&tels=183000000
 Content-Type: application/json
 
 {
@@ -316,11 +282,11 @@ Content-Type: application/json
     "content": "test-content"
 }
 
-<> 2021-12-25T084505-3.200.json
+<> 2021-12-25T115605-4.200.json
 
 ###
 
-POST http://localhost:8080/directmessage?sessionId=f02e2da7-d0bd-4040-91f3-7ce513dce5d9&userName=jasonZeng&qos=1&tels=183000000
+POST http://42.194.133.29:9090/directmessage?sessionId=9ee2b03c-60d3-4536-a0d3-11c45e069337&userName=jasonZeng&qos=1&tels=183000000
 Content-Type: application/json
 
 {
@@ -328,11 +294,11 @@ Content-Type: application/json
     "content": "test-content"
 }
 
-<> 2021-12-25T084505-2.200.json
+<> 2021-12-25T115605-3.200.json
 
 ###
 
-POST http://localhost:8080/directmessage?sessionId=f02e2da7-d0bd-4040-91f3-7ce513dce5d9&userName=jasonZeng&qos=1&tels=183000000
+POST http://42.194.133.29:9090/directmessage?sessionId=9ee2b03c-60d3-4536-a0d3-11c45e069337&userName=jasonZeng&qos=1&tels=183000000
 Content-Type: application/json
 
 {
@@ -340,11 +306,11 @@ Content-Type: application/json
     "content": "test-content"
 }
 
-<> 2021-12-25T084505-1.200.json
+<> 2021-12-25T115605-2.200.json
 
 ###
 
-POST http://localhost:8080/directmessage?sessionId=f02e2da7-d0bd-4040-91f3-7ce513dce5d9&userName=jasonZeng&qos=1&tels=183000000
+POST http://42.194.133.29:9090/directmessage?sessionId=9ee2b03c-60d3-4536-a0d3-11c45e069337&userName=jasonZeng&qos=1&tels=183000000
 Content-Type: application/json
 
 {
@@ -352,11 +318,11 @@ Content-Type: application/json
     "content": "test-content"
 }
 
-<> 2021-12-25T084505.200.json
+<> 2021-12-25T115605-1.200.json
 
 ###
 
-POST http://localhost:8080/directmessage?sessionId=f02e2da7-d0bd-4040-91f3-7ce513dce5d9&userName=jasonZeng&qos=1&tels=183000000
+POST http://42.194.133.29:9090/directmessage?sessionId=9ee2b03c-60d3-4536-a0d3-11c45e069337&userName=jasonZeng&qos=1&tels=183000000
 Content-Type: application/json
 
 {
@@ -364,11 +330,11 @@ Content-Type: application/json
     "content": "test-content"
 }
 
-<> 2021-12-25T084504-7.200.json
+<> 2021-12-25T115605.200.json
 
 ###
 
-POST http://localhost:8080/directmessage?sessionId=f02e2da7-d0bd-4040-91f3-7ce513dce5d9&userName=jasonZeng&qos=1&tels=183000000
+POST http://42.194.133.29:9090/directmessage?sessionId=9ee2b03c-60d3-4536-a0d3-11c45e069337&userName=jasonZeng&qos=1&tels=183000000
 Content-Type: application/json
 
 {
@@ -376,11 +342,11 @@ Content-Type: application/json
     "content": "test-content"
 }
 
-<> 2021-12-25T084504-6.200.json
+<> 2021-12-25T115604-6.200.json
 
 ###
 
-POST http://localhost:8080/directmessage?sessionId=f02e2da7-d0bd-4040-91f3-7ce513dce5d9&userName=jasonZeng&qos=1&tels=183000000
+POST http://42.194.133.29:9090/directmessage?sessionId=9ee2b03c-60d3-4536-a0d3-11c45e069337&userName=jasonZeng&qos=1&tels=183000000
 Content-Type: application/json
 
 {
@@ -388,11 +354,11 @@ Content-Type: application/json
     "content": "test-content"
 }
 
-<> 2021-12-25T084504-5.200.json
+<> 2021-12-25T115604-5.200.json
 
 ###
 
-POST http://localhost:8080/directmessage?sessionId=f02e2da7-d0bd-4040-91f3-7ce513dce5d9&userName=jasonZeng&qos=1&tels=183000000
+POST http://42.194.133.29:9090/directmessage?sessionId=9ee2b03c-60d3-4536-a0d3-11c45e069337&userName=jasonZeng&qos=1&tels=183000000
 Content-Type: application/json
 
 {
@@ -400,11 +366,11 @@ Content-Type: application/json
     "content": "test-content"
 }
 
-<> 2021-12-25T084504-4.200.json
+<> 2021-12-25T115604-4.200.json
 
 ###
 
-POST http://localhost:8080/directmessage?sessionId=f02e2da7-d0bd-4040-91f3-7ce513dce5d9&userName=jasonZeng&qos=1&tels=183000000
+POST http://42.194.133.29:9090/directmessage?sessionId=9ee2b03c-60d3-4536-a0d3-11c45e069337&userName=jasonZeng&qos=1&tels=183000000
 Content-Type: application/json
 
 {
@@ -412,11 +378,11 @@ Content-Type: application/json
     "content": "test-content"
 }
 
-<> 2021-12-25T084504-3.200.json
+<> 2021-12-25T115604-3.200.json
 
 ###
 
-POST http://localhost:8080/directmessage?sessionId=f02e2da7-d0bd-4040-91f3-7ce513dce5d9&userName=jasonZeng&qos=1&tels=183000000
+POST http://42.194.133.29:9090/directmessage?sessionId=9ee2b03c-60d3-4536-a0d3-11c45e069337&userName=jasonZeng&qos=1&tels=183000000
 Content-Type: application/json
 
 {
@@ -424,11 +390,11 @@ Content-Type: application/json
     "content": "test-content"
 }
 
-<> 2021-12-25T084504-2.200.json
+<> 2021-12-25T115604-2.200.json
 
 ###
 
-POST http://localhost:8080/directmessage?sessionId=f02e2da7-d0bd-4040-91f3-7ce513dce5d9&userName=jasonZeng&qos=1&tels=183000000
+POST http://42.194.133.29:9090/directmessage?sessionId=9ee2b03c-60d3-4536-a0d3-11c45e069337&userName=jasonZeng&qos=1&tels=183000000
 Content-Type: application/json
 
 {
@@ -436,11 +402,11 @@ Content-Type: application/json
     "content": "test-content"
 }
 
-<> 2021-12-25T084504-1.200.json
+<> 2021-12-25T115604-1.200.json
 
 ###
 
-POST http://localhost:8080/directmessage?sessionId=f02e2da7-d0bd-4040-91f3-7ce513dce5d9&userName=jasonZeng&qos=1&tels=183000000
+POST http://42.194.133.29:9090/directmessage?sessionId=9ee2b03c-60d3-4536-a0d3-11c45e069337&userName=jasonZeng&qos=1&tels=183000000
 Content-Type: application/json
 
 {
@@ -448,11 +414,11 @@ Content-Type: application/json
     "content": "test-content"
 }
 
-<> 2021-12-25T084504.200.json
+<> 2021-12-25T115604.200.json
 
 ###
 
-POST http://localhost:8080/directmessage?sessionId=f02e2da7-d0bd-4040-91f3-7ce513dce5d9&userName=jasonZeng&qos=1&tels=183000000
+POST http://42.194.133.29:9090/directmessage?sessionId=9ee2b03c-60d3-4536-a0d3-11c45e069337&userName=jasonZeng&qos=1&tels=183000000
 Content-Type: application/json
 
 {
@@ -460,11 +426,11 @@ Content-Type: application/json
     "content": "test-content"
 }
 
-<> 2021-12-25T084503-7.200.json
+<> 2021-12-25T115603-7.200.json
 
 ###
 
-POST http://localhost:8080/directmessage?sessionId=f02e2da7-d0bd-4040-91f3-7ce513dce5d9&userName=jasonZeng&qos=1&tels=183000000
+POST http://42.194.133.29:9090/directmessage?sessionId=9ee2b03c-60d3-4536-a0d3-11c45e069337&userName=jasonZeng&qos=1&tels=183000000
 Content-Type: application/json
 
 {
@@ -472,11 +438,11 @@ Content-Type: application/json
     "content": "test-content"
 }
 
-<> 2021-12-25T084503-6.200.json
+<> 2021-12-25T115603-6.200.json
 
 ###
 
-POST http://localhost:8080/directmessage?sessionId=f02e2da7-d0bd-4040-91f3-7ce513dce5d9&userName=jasonZeng&qos=1&tels=183000000
+POST http://42.194.133.29:9090/directmessage?sessionId=9ee2b03c-60d3-4536-a0d3-11c45e069337&userName=jasonZeng&qos=1&tels=183000000
 Content-Type: application/json
 
 {
@@ -484,11 +450,11 @@ Content-Type: application/json
     "content": "test-content"
 }
 
-<> 2021-12-25T084503-5.200.json
+<> 2021-12-25T115603-5.200.json
 
 ###
 
-POST http://localhost:8080/directmessage?sessionId=f02e2da7-d0bd-4040-91f3-7ce513dce5d9&userName=jasonZeng&qos=1&tels=183000000
+POST http://42.194.133.29:9090/directmessage?sessionId=9ee2b03c-60d3-4536-a0d3-11c45e069337&userName=jasonZeng&qos=1&tels=183000000
 Content-Type: application/json
 
 {
@@ -496,11 +462,11 @@ Content-Type: application/json
     "content": "test-content"
 }
 
-<> 2021-12-25T084503-4.200.json
+<> 2021-12-25T115603-4.200.json
 
 ###
 
-POST http://localhost:8080/directmessage?sessionId=f02e2da7-d0bd-4040-91f3-7ce513dce5d9&userName=jasonZeng&qos=1&tels=183000000
+POST http://42.194.133.29:9090/directmessage?sessionId=9ee2b03c-60d3-4536-a0d3-11c45e069337&userName=jasonZeng&qos=1&tels=183000000
 Content-Type: application/json
 
 {
@@ -508,11 +474,11 @@ Content-Type: application/json
     "content": "test-content"
 }
 
-<> 2021-12-25T084503-3.200.json
+<> 2021-12-25T115603-3.200.json
 
 ###
 
-POST http://localhost:8080/directmessage?sessionId=f02e2da7-d0bd-4040-91f3-7ce513dce5d9&userName=jasonZeng&qos=1&tels=183000000
+POST http://42.194.133.29:9090/directmessage?sessionId=9ee2b03c-60d3-4536-a0d3-11c45e069337&userName=jasonZeng&qos=1&tels=183000000
 Content-Type: application/json
 
 {
@@ -520,11 +486,11 @@ Content-Type: application/json
     "content": "test-content"
 }
 
-<> 2021-12-25T084503-2.200.json
+<> 2021-12-25T115603-2.200.json
 
 ###
 
-POST http://localhost:8080/directmessage?sessionId=f02e2da7-d0bd-4040-91f3-7ce513dce5d9&userName=jasonZeng&qos=1&tels=183000000
+POST http://42.194.133.29:9090/directmessage?sessionId=9ee2b03c-60d3-4536-a0d3-11c45e069337&userName=jasonZeng&qos=1&tels=183000000
 Content-Type: application/json
 
 {
@@ -532,11 +498,11 @@ Content-Type: application/json
     "content": "test-content"
 }
 
-<> 2021-12-25T084503-1.200.json
+<> 2021-12-25T115603-1.200.json
 
 ###
 
-POST http://localhost:8080/directmessage?sessionId=f02e2da7-d0bd-4040-91f3-7ce513dce5d9&userName=jasonZeng&qos=1&tels=183000000
+POST http://42.194.133.29:9090/directmessage?sessionId=9ee2b03c-60d3-4536-a0d3-11c45e069337&userName=jasonZeng&qos=1&tels=183000000
 Content-Type: application/json
 
 {
@@ -544,11 +510,11 @@ Content-Type: application/json
     "content": "test-content"
 }
 
-<> 2021-12-25T084503.200.json
+<> 2021-12-25T115603.200.json
 
 ###
 
-POST http://localhost:8080/directmessage?sessionId=f02e2da7-d0bd-4040-91f3-7ce513dce5d9&userName=jasonZeng&qos=1&tels=183000000
+POST http://42.194.133.29:9090/directmessage?sessionId=9ee2b03c-60d3-4536-a0d3-11c45e069337&userName=jasonZeng&qos=1&tels=183000000
 Content-Type: application/json
 
 {
@@ -556,11 +522,11 @@ Content-Type: application/json
     "content": "test-content"
 }
 
-<> 2021-12-25T084502-5.200.json
+<> 2021-12-25T115602-5.200.json
 
 ###
 
-POST http://localhost:8080/directmessage?sessionId=f02e2da7-d0bd-4040-91f3-7ce513dce5d9&userName=jasonZeng&qos=1&tels=183000000
+POST http://42.194.133.29:9090/directmessage?sessionId=9ee2b03c-60d3-4536-a0d3-11c45e069337&userName=jasonZeng&qos=1&tels=183000000
 Content-Type: application/json
 
 {
@@ -568,11 +534,11 @@ Content-Type: application/json
     "content": "test-content"
 }
 
-<> 2021-12-25T084502-4.200.json
+<> 2021-12-25T115602-4.200.json
 
 ###
 
-POST http://localhost:8080/directmessage?sessionId=f02e2da7-d0bd-4040-91f3-7ce513dce5d9&userName=jasonZeng&qos=1&tels=183000000
+POST http://42.194.133.29:9090/directmessage?sessionId=9ee2b03c-60d3-4536-a0d3-11c45e069337&userName=jasonZeng&qos=1&tels=183000000
 Content-Type: application/json
 
 {
@@ -580,11 +546,11 @@ Content-Type: application/json
     "content": "test-content"
 }
 
-<> 2021-12-25T084502-3.200.json
+<> 2021-12-25T115602-3.200.json
 
 ###
 
-POST http://localhost:8080/directmessage?sessionId=f02e2da7-d0bd-4040-91f3-7ce513dce5d9&userName=jasonZeng&qos=1&tels=183000000
+POST http://42.194.133.29:9090/directmessage?sessionId=9ee2b03c-60d3-4536-a0d3-11c45e069337&userName=jasonZeng&qos=1&tels=183000000
 Content-Type: application/json
 
 {
@@ -592,7 +558,43 @@ Content-Type: application/json
     "content": "test-content"
 }
 
-<> 2021-12-25T084502-2.200.json
+<> 2021-12-25T115602-2.200.json
+
+###
+
+POST http://42.194.133.29:9090/directmessage?sessionId=9ee2b03c-60d3-4536-a0d3-11c45e069337&userName=jasonZeng&qos=1&tels=183000000
+Content-Type: application/json
+
+{
+    "title": "test",
+    "content": "test-content"
+}
+
+<> 2021-12-25T115602-1.200.json
+
+###
+
+POST http://42.194.133.29:9090/directmessage?sessionId=9ee2b03c-60d3-4536-a0d3-11c45e069337&userName=jasonZeng&qos=1&tels=183000000
+Content-Type: application/json
+
+{
+    "title": "test",
+    "content": "test-content"
+}
+
+<> 2021-12-25T115602.200.json
+
+###
+
+POST http://42.194.133.29:9090/directmessage?sessionId=9ee2b03c-60d3-4536-a0d3-11c45e069337&userName=jasonZeng&qos=1&tels=183000000
+Content-Type: application/json
+
+{
+    "title": "test",
+    "content": "test-content"
+}
+
+<> 2021-12-25T115601-6.200.json
 
 ###
 
