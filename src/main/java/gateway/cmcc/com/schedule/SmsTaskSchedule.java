@@ -53,12 +53,12 @@ public class SmsTaskSchedule implements ApplicationRunner {
             log.info("定时器获取新任务数:{}", Objects.nonNull(range) ? range.size() : 0);
             if (!CollectionUtils.isEmpty(range)) {
                 HashOperations<String, Object, Object> opsForHash = redisTemplate.opsForHash();
-                List<Object> objects = opsForHash.multiGet(RedisKey.SMS_TASK_DETAIL, new ArrayList<>(range));
+                List<Object> a = new ArrayList<>(range);
+                List<Object> objects = opsForHash.multiGet(RedisKey.SMS_TASK_DETAIL, a);
                 if (!CollectionUtils.isEmpty(objects)) {
                     List<SmsTask> smsTaskList = objects.stream()
                         .filter(Objects::nonNull)
                         .map(v -> JSON.parseObject(v.toString(), SmsTask.class))
-                        .filter((v) -> taskContainer.checkIfExec(v))
                         .collect(Collectors.toList());
                     taskContainer.pullAll(smsTaskList);
                 }
