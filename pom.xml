@@ -8,9 +8,6 @@
     <artifactId>gateway.cmcc.com</artifactId>
     <version>1.0</version>
 
-    <properties>
-        <java.version>11</java.version>
-    </properties>
 
     <dependencies>
         <dependency>
