@@ -1,3 +1,13 @@
+POST http://42.194.133.29:9090/auth/user/register
+Content-Type: application/json
+
+{
+    "userName": "jasonZeng",
+    "password": "hellojason"
+}
+
+###
+
 POST http://localhost:8080/directmessage?sessionId=f02e2da7-d0bd-4040-91f3-7ce513dce5d9&userName=jasonZeng&qos=1&tels=183000000
 Content-Type: application/json
 
@@ -583,18 +593,6 @@ Content-Type: application/json
 }
 
 <> 2021-12-25T084238.200.json
-
-###
-
-POST http://localhost:8080/directmessage?sessionId=f02e2da7-d0bd-4040-91f3-7ce513dce5d9&userName=jasonZeng&qos=1&tels=183000000
-Content-Type: application/json
-
-{
-    "title": "test",
-    "content": "test-content"
-}
-
-<> 2021-12-25T084237-1.200.json
 
 ###
 
