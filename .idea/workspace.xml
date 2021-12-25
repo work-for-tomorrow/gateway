@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ac1ed9ad-3dd7-4118-b9c8-171ba71a3642" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/gateway/cmcc/com/http/UserRemoteTest.http" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2021-12-25T084237-1.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/gateway/cmcc/com/http/UserTest.http" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/gateway/cmcc/com/http/UserTest.http" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -454,6 +449,11 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="http" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="gateway-cmcc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cmcc" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -468,7 +468,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1640442293234" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1640442339658" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -989,12 +989,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1640356171075</updated>
-      <workItem from="1640356172994" duration="39534000" />
+      <workItem from="1640356172994" duration="39720000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39534000" />
+    <option name="totallyTimeSpent" value="39720000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1007,7 +1007,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="792" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Designer" />
       <window_info id="Image Layers" />
@@ -1018,7 +1017,7 @@
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4992658" visible="true" weight="0.21459228" />
       <window_info id="Structure" order="1" sideWeight="0.5007342" side_tool="true" weight="0.27825466" />
       <window_info anchor="bottom" id="Spring" />
-      <window_info anchor="bottom" id="Terminal" weight="0.32714286" />
+      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.32714286" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Messages" weight="0.32763532" />
@@ -1033,7 +1032,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32857144" />
-      <window_info anchor="right" id="Maven" weight="0.3297568" />
+      <window_info anchor="right" id="Maven" visible="true" weight="0.3297568" />
       <window_info anchor="right" id="Palette" />
       <window_info anchor="right" id="Capture Analysis" />
       <window_info anchor="right" id="Database" weight="0.3297568" />
