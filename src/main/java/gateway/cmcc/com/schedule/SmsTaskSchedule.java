@@ -50,6 +50,7 @@ public class SmsTaskSchedule implements ApplicationRunner {
         if (queueSize < 3 && stop-- <= 0) {
             ZSetOperations<String, String> setOperations = redisTemplate.opsForZSet();
             Set<String> range = setOperations.range(RedisKey.SMS_TASK_QUEUE, 0, 2);
+            log.info("定时器获取新任务数:{}", Objects.nonNull(range) ? range.size() : 0);
             if (!CollectionUtils.isEmpty(range)) {
                 HashOperations<String, Object, Object> opsForHash = redisTemplate.opsForHash();
                 List<Object> objects = opsForHash.multiGet(RedisKey.SMS_TASK_DETAIL, new ArrayList<>(range));

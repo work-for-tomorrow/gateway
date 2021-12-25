@@ -2,9 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ac1ed9ad-3dd7-4118-b9c8-171ba71a3642" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2021-12-25T084238-1.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2021-12-25T084238-2.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2021-12-25T084238.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2021-12-25T084239-1.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2021-12-25T084239-2.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2021-12-25T084239.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2021-12-25T084240-1.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2021-12-25T084240-2.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2021-12-25T084240.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2021-12-25T084241-1.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2021-12-25T084241.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2021-12-25T084459.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2021-12-25T084500-1.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2021-12-25T084500-2.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2021-12-25T084500-3.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2021-12-25T084500-4.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2021-12-25T084500-5.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2021-12-25T084500-6.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2021-12-25T084500-7.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2021-12-25T084500.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2021-12-25T084501.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2021-12-25T084502-1.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2021-12-25T084502.200.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/gateway/cmcc/com/http/UserRemoteTest.http" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/gateway/cmcc/com/http/UserRemoteTest.http" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -33,7 +55,7 @@
     <favorites_list name="gateway-cmcc" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.7240437">
+    <splitter split-orientation="horizontal" split-proportion="0.24681239">
       <split-first>
         <leaf>
           <file pinned="false" current-in-tab="false">
@@ -96,10 +118,10 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/pom.xml">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="240">
+                <state relative-caret-position="239">
                   <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
                 </state>
               </provider>
@@ -114,11 +136,11 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/java/gateway/cmcc/com/service/impl/LimiterServiceImpl.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="201">
-                  <caret line="41" column="30" selection-start-line="41" selection-start-column="30" selection-end-line="41" selection-end-column="30" />
+                <state relative-caret-position="190">
+                  <caret line="63" column="21" lean-forward="true" selection-start-line="63" selection-start-column="21" selection-end-line="63" selection-end-column="21" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -199,8 +221,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/test/java/gateway/cmcc/com/http/UserRemoteTest.http">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="136">
-                  <caret line="26" column="36" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
+                <state relative-caret-position="265">
+                  <caret line="36" column="91" selection-start-line="36" selection-start-column="91" selection-end-line="36" selection-end-column="91" />
                 </state>
               </provider>
             </entry>
@@ -296,7 +318,6 @@
         <option value="$PROJECT_DIR$/src/main/java/gateway/cmcc/com/service/impl/MessageServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/gateway/cmcc/com/service/MessageService.java" />
         <option value="$PROJECT_DIR$/src/main/java/gateway/cmcc/com/controller/MessageController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/gateway/cmcc/com/service/impl/LimiterServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/resources/application-dev.yml" />
         <option value="$PROJECT_DIR$/src/main/java/gateway/cmcc/com/http/feign/config/FeignSmsConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/gateway/cmcc/com/support/TaskContainer.java" />
@@ -305,8 +326,9 @@
         <option value="$PROJECT_DIR$/src/main/resources/application-prd.yml" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/test/java/gateway/cmcc/com/http/UserTest.http" />
-        <option value="$PROJECT_DIR$/src/test/java/gateway/cmcc/com/http/UserRemoteTest.http" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/gateway/cmcc/com/service/impl/LimiterServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/test/java/gateway/cmcc/com/http/UserRemoteTest.http" />
       </list>
     </option>
   </component>
@@ -419,6 +441,25 @@
               <item name="cmcc" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gateway-cmcc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cmcc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gateway-cmcc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cmcc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -470,7 +511,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1640444048552" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1640445730106" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -488,6 +529,75 @@
   <component name="RestClientSettings">
     <option name="REQUEST_HISTORY">
       <list>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://42.194.133.29:9090/directmessage" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="sessionId" />
+                <option name="value" value="bc9d52b2-6b4c-4acf-a974-c1c66602b370" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userName" />
+                <option name="value" value="jasonZeng" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="qos" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="tels" />
+                <option name="value" value="183000000" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;    &quot;title&quot;: &quot;test&quot;,&#10;    &quot;content&quot;: &quot;test-content&quot;&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://42.194.133.29:9090/auth/user/login" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;    &quot;userName&quot;: &quot;jasonZeng&quot;,&#10;    &quot;password&quot;: &quot;hellojason&quot;&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://42.194.133.29:9090/auth/user/register" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;    &quot;userName&quot;: &quot;jasonZeng&quot;,&#10;    &quot;password&quot;: &quot;hellojason&quot;&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
         <RestClientRequest>
           <option name="httpMethod" value="POST" />
           <option name="urlBase" value="http://localhost:8080/directmessage" />
@@ -936,14 +1046,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="HTTP Request.UserRemoteTest#1">
+  <component name="RunManager" selected="HTTP Request.UserRemoteTest#4">
     <configuration name="UserRemoteTest#1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$PROJECT_DIR$/src/test/java/gateway/cmcc/com/http/UserRemoteTest.http">
       <method v="2" />
     </configuration>
-    <configuration name="UserTest#1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$PROJECT_DIR$/src/test/java/gateway/cmcc/com/http/UserTest.http">
+    <configuration name="UserRemoteTest#2" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$PROJECT_DIR$/src/test/java/gateway/cmcc/com/http/UserRemoteTest.http" index="2">
       <method v="2" />
     </configuration>
-    <configuration name="UserTest#2" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$PROJECT_DIR$/src/test/java/gateway/cmcc/com/http/UserTest.http" index="2">
+    <configuration name="UserRemoteTest#4" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$PROJECT_DIR$/src/test/java/gateway/cmcc/com/http/UserRemoteTest.http" index="4">
       <method v="2" />
     </configuration>
     <configuration name="UserTest#4" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$PROJECT_DIR$/src/test/java/gateway/cmcc/com/http/UserTest.http" index="4">
@@ -966,18 +1076,18 @@
     </configuration>
     <list>
       <item itemvalue="Spring Boot.GateWay" />
-      <item itemvalue="HTTP Request.UserTest#1" />
-      <item itemvalue="HTTP Request.UserTest#2" />
       <item itemvalue="HTTP Request.UserTest#4" />
       <item itemvalue="HTTP Request.UserRemoteTest#1" />
+      <item itemvalue="HTTP Request.UserRemoteTest#2" />
+      <item itemvalue="HTTP Request.UserRemoteTest#4" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="HTTP Request.UserRemoteTest#4" />
+        <item itemvalue="HTTP Request.UserRemoteTest#2" />
         <item itemvalue="HTTP Request.UserRemoteTest#1" />
         <item itemvalue="HTTP Request.UserTest#4" />
         <item itemvalue="Spring Boot.GateWay" />
-        <item itemvalue="HTTP Request.UserTest#2" />
-        <item itemvalue="HTTP Request.UserTest#1" />
       </list>
     </recent_temporary>
   </component>
@@ -991,12 +1101,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1640356171075</updated>
-      <workItem from="1640356172994" duration="40395000" />
+      <workItem from="1640356172994" duration="40700000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40395000" />
+    <option name="totallyTimeSpent" value="40700000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1009,6 +1119,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="792" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Designer" />
       <window_info id="Image Layers" />
@@ -1019,7 +1130,7 @@
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4992658" visible="true" weight="0.21459228" />
       <window_info id="Structure" order="1" sideWeight="0.5007342" side_tool="true" weight="0.27825466" />
       <window_info anchor="bottom" id="Spring" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.5" />
+      <window_info anchor="bottom" id="Terminal" weight="0.5" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Messages" weight="0.32763532" />
@@ -1029,7 +1140,7 @@
       <window_info anchor="bottom" id="LuaCheck" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.34142858" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.34142858" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.5042857" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1422,16 +1533,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/gateway/cmcc/com/service/impl/LimiterServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="41" column="30" selection-start-line="41" selection-start-column="30" selection-end-line="41" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/gateway/cmcc/com/support/TaskContainer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1098">
@@ -1504,13 +1605,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/gateway/cmcc/com/http/UserRemoteTest.http">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="26" column="36" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="208">
@@ -1520,8 +1614,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
+        <state relative-caret-position="239">
           <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/gateway/cmcc/com/service/impl/LimiterServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="63" column="21" lean-forward="true" selection-start-line="63" selection-start-column="21" selection-end-line="63" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/gateway/cmcc/com/http/UserRemoteTest.http">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="36" column="91" selection-start-line="36" selection-start-column="91" selection-end-line="36" selection-end-column="91" />
         </state>
       </provider>
     </entry>
