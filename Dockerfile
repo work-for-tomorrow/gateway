@@ -1,6 +1,6 @@
 FROM openjdk:11
 ENV TZ=Asia/Shanghai
-ENV CURRENT_PROFILE=prd
+ENV CURRENT_PROFILE=dev
 ENV MODULE_NAME=gateway.cmcc.com-1.0
 ENV JAVA_OPT='-Xms512M -Xmx512M'
 
