@@ -1,0 +1,16 @@
+{
+  "res_code": "0",
+  "res_message": "Success",
+  "totalReceived": 207,
+  "lastReceivedTimestamp": 1640520984935,
+  "qosSucessMap": {
+    "1": 68,
+    "2": 55,
+    "3": 52
+  },
+  "qosRejectMap": {
+    "1": 12,
+    "2": 14,
+    "3": 6
+  }
+}

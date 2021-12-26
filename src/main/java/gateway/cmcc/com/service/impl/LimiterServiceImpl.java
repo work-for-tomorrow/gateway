@@ -48,7 +48,7 @@ public class LimiterServiceImpl implements LimiterService, RedisKey {
             "end";
         String sha1 = DigestUtils.sha1DigestAsHex(script);
 
-        String k = RedisKey.SMS_PER_REQUEST + System.currentTimeMillis() / 1000;
+        String k = RedisKey.SMS_PER_REQUEST + System.currentTimeMillis() / 2000;
         long ttl = 1000L * 2;
         Long execute = redisTemplate.execute(new RedisScript<Long>() {
             @Override

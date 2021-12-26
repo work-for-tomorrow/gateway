@@ -3,6 +3,7 @@ server:
 spring:
   redis:
     host: 42.194.133.29
+    password: come$%cabbyy!
 logging:
   level:
     gateway:
@@ -11,3 +12,6 @@ logging:
           http:
             feign:
               SmsFeign: debug
+
+local:
+  request-url: http://localhost:8080
