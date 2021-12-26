@@ -51,7 +51,7 @@ public class SmsTaskSchedule implements ApplicationRunner {
         if (queueSize < 3 && stop-- <= 0) {
             ZSetOperations<String, String> setOperations = redisTemplate.opsForZSet();
             Set<String> range = setOperations.range(RedisKey.SMS_TASK_QUEUE, 0, 9);
-            log.info("定时器获取新任务数:{}", Objects.nonNull(range) ? range.size() : 0);
+            log.debug("定时器获取新任务数:{}", Objects.nonNull(range) ? range.size() : 0);
             if (!CollectionUtils.isEmpty(range)) {
                 HashOperations<String, Object, Object> opsForHash = redisTemplate.opsForHash();
                 List<Object> a = new ArrayList<>(range);
@@ -74,10 +74,10 @@ public class SmsTaskSchedule implements ApplicationRunner {
     public void run(ApplicationArguments args) throws Exception {
         // 死循环来执行，本地缓存的短信
         while (true) {
-            log.info("定时器正在运行,队列数为:{}", taskContainer.getQueueSize());
+            log.debug("定时器正在运行,队列数为:{}", taskContainer.getQueueSize());
             SmsTask take = taskContainer.take();
             Boolean aBoolean = messageService.sendSmsInner(take);
-            log.info("消费结果：" + aBoolean + "；当前队列长度:" + taskContainer.getQueueSize());
+            log.debug("消费结果：" + aBoolean + "；当前队列长度:" + taskContainer.getQueueSize());
             if (aBoolean) {
                 taskContainer.removeFromRedis(take);
             }else {

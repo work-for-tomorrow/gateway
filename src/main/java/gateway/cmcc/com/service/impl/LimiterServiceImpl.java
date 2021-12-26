@@ -33,7 +33,7 @@ public class LimiterServiceImpl implements LimiterService, RedisKey {
     public Boolean getTicket(String key) {
         ValueOperations<String, String> forValue = redisTemplate.opsForValue();
         Boolean setIfAbsent = forValue.setIfAbsent(getMobileKey(key), "1", limiterConfig.getPerMobile(), TimeUnit.MILLISECONDS);
-        log.info("获取单独手机锁结果:{},锁key: {}", setIfAbsent, getMobileKey(key));
+        log.debug("获取单独手机锁结果:{},锁key: {}", setIfAbsent, getMobileKey(key));
         if (null != setIfAbsent && !setIfAbsent) {
             return false;
         }
@@ -66,7 +66,7 @@ public class LimiterServiceImpl implements LimiterService, RedisKey {
                 return script;
             }
         }, Collections.singletonList(k), String.valueOf(limiterConfig.getPerRequest() - 1), String.valueOf(ttl));
-        log.info("获取限流ticket结果:{};锁key为:{}", execute, k);
+        log.debug("获取限流ticket结果:{};锁key为:{}", execute, k);
         return execute != null && execute > 0;
     }
 

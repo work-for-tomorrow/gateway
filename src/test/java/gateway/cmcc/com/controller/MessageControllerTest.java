@@ -30,7 +30,7 @@ public class MessageControllerTest extends BaseTest {
         smsTask.setTitle("test");
         smsTask.setContent("test-content-1");
 
-        LinkedBlockingQueue<Runnable> blockingQueue = new LinkedBlockingQueue<>(1000);
+        LinkedBlockingQueue<Runnable> blockingQueue = new LinkedBlockingQueue<>(1700);
         ThreadPoolExecutor poolExecutor = new ThreadPoolExecutor(15, 15, 60, TimeUnit.SECONDS, blockingQueue);
         for (int j = 0; j < 1000; j++) {
             Random random = new Random();
