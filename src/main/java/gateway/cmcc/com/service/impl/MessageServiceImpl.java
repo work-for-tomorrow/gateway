@@ -80,6 +80,8 @@ public class MessageServiceImpl implements MessageService {
                     if (Objects.nonNull(smsVo) && smsVo.isSuccess()) {
                         return Boolean.TRUE;
                     }
+                }else {
+                    return Boolean.TRUE;
                 }
             }catch (Exception e) {
                 opsForSet.remove(RedisKey.SMS_SENT_SET, smsTask.getTaskId());
