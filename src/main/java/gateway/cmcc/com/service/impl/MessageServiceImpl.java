@@ -1,15 +1,17 @@
 package gateway.cmcc.com.service.impl;
 
+import gateway.cmcc.com.constant.RedisKey;
 import gateway.cmcc.com.domain.SmsTask;
 import gateway.cmcc.com.domain.dto.SmsBodyDto;
 import gateway.cmcc.com.domain.vo.SmsVo;
 import gateway.cmcc.com.http.feign.SmsFeign;
 import gateway.cmcc.com.service.LimiterService;
 import gateway.cmcc.com.service.MessageService;
-import gateway.cmcc.com.service.UserService;
 import gateway.cmcc.com.support.TaskContainer;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.redis.core.RedisTemplate;
+import org.springframework.data.redis.core.SetOperations;
 import org.springframework.stereotype.Service;
 
 import java.util.Objects;
@@ -32,6 +34,9 @@ public class MessageServiceImpl implements MessageService {
     @Autowired
     private TaskContainer taskContainer;
 
+    @Autowired
+    private RedisTemplate<String, String> redisTemplate;
+
 
     public Boolean sendSms(SmsTask smsTask) {
 
@@ -45,6 +50,8 @@ public class MessageServiceImpl implements MessageService {
                 SmsVo smsVo = smsFeign.sendSms(SmsBodyDto.build(smsTask));
                 // 发送成功
                 if (Objects.nonNull(smsVo) && smsVo.isSuccess()) {
+                    SetOperations<String, String> opsForSet = redisTemplate.opsForSet();
+                    opsForSet.add(RedisKey.SMS_SENT_SET, smsTask.getTaskId());
                     return Boolean.TRUE;
                 }
                 taskContainer.offer(smsTask);
@@ -63,14 +70,19 @@ public class MessageServiceImpl implements MessageService {
         // 获取门票
         Boolean ticket = limiterService.getTicket(smsTask.getTels());
         if (ticket) {
+            SetOperations<String, String> opsForSet = redisTemplate.opsForSet();
             try {
-                // 发送短信
-                SmsVo smsVo = smsFeign.sendSms(SmsBodyDto.build(smsTask));
-                // 发送成功
-                if (Objects.nonNull(smsVo) && smsVo.isSuccess()) {
-                    return Boolean.TRUE;
+                Long add = opsForSet.add(RedisKey.SMS_SENT_SET, smsTask.getTaskId());
+                if (Objects.nonNull(add) && add > 0) {
+                    // 发送短信
+                    SmsVo smsVo = smsFeign.sendSms(SmsBodyDto.build(smsTask));
+                    // 发送成功
+                    if (Objects.nonNull(smsVo) && smsVo.isSuccess()) {
+                        return Boolean.TRUE;
+                    }
                 }
             }catch (Exception e) {
+                opsForSet.remove(RedisKey.SMS_SENT_SET, smsTask.getTaskId());
                 log.error("队列内发送短信时发生错误:" + e.getMessage());
             }
         }

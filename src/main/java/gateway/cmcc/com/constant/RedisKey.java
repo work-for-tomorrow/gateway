@@ -22,6 +22,8 @@ public interface RedisKey {
 
     String SMS_SENT_TASK = "SMS:SENT:TASK:";
 
+    String SMS_SENT_SET = "SMS:SENT:SET";
+
 
     /**  user **/
 

@@ -5,5 +5,3 @@ spring:
     host: ${REDIS_HOST}
 sms:
   address: ${MOKE_SERVER_HOST}:${MOKE_SERVER_PORT}
-logging:
-  level: error
