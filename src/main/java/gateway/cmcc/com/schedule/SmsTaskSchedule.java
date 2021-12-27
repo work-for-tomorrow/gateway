@@ -24,7 +24,7 @@ import java.util.stream.Collectors;
  * @version 1.0
  * @date 2021-12-25
  */
-@Component
+//@Component
 @Slf4j
 public class SmsTaskSchedule implements ApplicationRunner {
 

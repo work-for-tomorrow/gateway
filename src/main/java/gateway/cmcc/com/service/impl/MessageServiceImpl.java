@@ -39,31 +39,44 @@ public class MessageServiceImpl implements MessageService {
 
 
     public Boolean sendSms(SmsTask smsTask) {
-
+        long now = System.currentTimeMillis() + 4500L;
         // 获取门票
         Boolean ticket = limiterService.getTicket(smsTask.getTels());
-
+        SmsBodyDto smsBodyDto = SmsBodyDto.build(smsTask);
         // 获取成功即可直接发送
         if (ticket) {
-            try {
-                // 发送短信
-                SmsVo smsVo = smsFeign.sendSms(SmsBodyDto.build(smsTask));
-                // 发送成功
-                if (Objects.nonNull(smsVo) && smsVo.isSuccess()) {
-                    SetOperations<String, String> opsForSet = redisTemplate.opsForSet();
-                    opsForSet.add(RedisKey.SMS_SENT_SET, smsTask.getTaskId());
-                    return Boolean.TRUE;
-                }
-                taskContainer.offer(smsTask);
-            }catch (Exception e) {
-                log.error("发送短信时发生错误:"  + e.getMessage());
-                taskContainer.offer(smsTask);
-            }
+            if (sendSmsToServer(smsBodyDto)) return Boolean.TRUE;
         }else {
-            // 不成功即存入容器
-            taskContainer.offer(smsTask);
+            if (smsTask.getQos().equals("1")) {
+                while (now > System.currentTimeMillis()) {
+                    try {
+                        Thread.sleep(1000L);
+                    } catch (InterruptedException e) {
+                        e.printStackTrace();
+                    }
+                    Boolean ticket1 = limiterService.getTicket(smsTask.getTels());
+                    if (ticket1) {
+                        if (sendSmsToServer(smsBodyDto)) {
+                            return Boolean.TRUE;
+                        }
+                    }
+                }
+            }
         }
-        return Boolean.TRUE;
+        return Boolean.FALSE;
+    }
+
+    private boolean sendSmsToServer(SmsBodyDto smsBodyDto) {
+        try {
+            SmsVo smsVo = smsFeign.sendSms(smsBodyDto);
+            // 发送成功
+            if (Objects.nonNull(smsVo) && smsVo.isSuccess()) {
+                return true;
+            }
+        }catch (Exception e) {
+            log.error("发送短信时发生错误:" + e.getMessage());
+        }
+        return false;
     }
 
     public Boolean sendSmsInner(SmsTask smsTask) {

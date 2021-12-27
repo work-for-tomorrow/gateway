@@ -7,3 +7,7 @@ spring:
 
 local:
   request-url: http://localhost:8080
+
+logging:
+  level:
+    root: info

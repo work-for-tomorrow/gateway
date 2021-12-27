@@ -6,6 +6,7 @@ import gateway.cmcc.com.http.feign.MessageFeignTest;
 import org.junit.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 
+import java.util.Arrays;
 import java.util.Random;
 import java.util.concurrent.*;
 
@@ -32,9 +33,11 @@ public class MessageControllerTest extends BaseTest {
 
         LinkedBlockingQueue<Runnable> blockingQueue = new LinkedBlockingQueue<>(1700);
         ThreadPoolExecutor poolExecutor = new ThreadPoolExecutor(15, 15, 60, TimeUnit.SECONDS, blockingQueue);
-        for (int j = 0; j < 1000; j++) {
+        int[] result = new int[4];
+        for (int j = 0; j < 100; j++) {
             Random random = new Random();
             int i = random.nextInt(3) + 1;
+            result[i]++;
             String qos = String.valueOf(i);
             String tels = "18930" + j;
             poolExecutor.submit(() -> {
@@ -51,6 +54,7 @@ public class MessageControllerTest extends BaseTest {
         while (poolExecutor.getActiveCount() != 0) {
 
         }
+        System.out.println(Arrays.toString(result));
     }
 
 }
