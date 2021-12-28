@@ -48,7 +48,7 @@ public class LimiterServiceImpl implements LimiterService, RedisKey {
             "end";
         String sha1 = DigestUtils.sha1DigestAsHex(script);
 
-        String k = RedisKey.SMS_PER_REQUEST + System.currentTimeMillis() / 1000;
+        String k = RedisKey.SMS_PER_REQUEST + System.currentTimeMillis() / 2000;
         long ttl = 1000L * 2;
         Long execute = redisTemplate.execute(new RedisScript<Long>() {
             @Override
@@ -67,7 +67,12 @@ public class LimiterServiceImpl implements LimiterService, RedisKey {
             }
         }, Collections.singletonList(k), String.valueOf(limiterConfig.getPerRequest() - 1), String.valueOf(ttl));
         log.debug("获取限流ticket结果:{};锁key为:{}", execute, k);
-        return execute != null && execute > 0;
+
+        boolean b = execute != null && execute > 0;
+        if (!b) {
+            redisTemplate.delete(getMobileKey(key));
+        }
+        return b;
     }
 
 }

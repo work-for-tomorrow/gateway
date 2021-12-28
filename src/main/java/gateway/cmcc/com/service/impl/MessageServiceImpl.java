@@ -50,9 +50,10 @@ public class MessageServiceImpl implements MessageService {
             if (smsTask.getQos().equals("1")) {
                 while (now > System.currentTimeMillis()) {
                     try {
-                        Thread.sleep(1000L);
+                        Thread.sleep(100L);
                     } catch (InterruptedException e) {
                         e.printStackTrace();
+                        break;
                     }
                     Boolean ticket1 = limiterService.getTicket(smsTask.getTels());
                     if (ticket1) {
